@@ -1,0 +1,228 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+b,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  width: 100%;
+  height: 100%;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #09090a;
+  color: #fff;
+}
+body header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px;
+  position: fixed;
+  width: 100%;
+  background-color: #09090a;
+}
+body header button {
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 1px solid #8b5cf6;
+  background-color: transparent;
+  color: #fff;
+  margin-right: 70px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+}
+body #form-habits {
+  display: flex;
+  padding: 182px 48px 48px;
+  width: fit-content;
+}
+body #form-habits .habits {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+body #form-habits .habits .habit {
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body #form-habits .days {
+  display: flex;
+  gap: 48px;
+  margin-left: 32px;
+}
+body #form-habits .days .day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+body #form-habits .days .day div {
+  margin-bottom: 8px;
+  font-family: "Roboto Mono";
+  font-size: 20px;
+  line-height: 125%;
+  color: #a1a1aa;
+}
+body #form-habits input {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 64px;
+  height: 64px;
+  border: 1px solid #27272a;
+  border-radius: 8px;
+  background: #18181b;
+}
+body #form-habits input:checked {
+  background: #8b5cf6;
+  border: 2px solid #a78bda;
+}
+@media (max-width: 570px) {
+  body button div {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
